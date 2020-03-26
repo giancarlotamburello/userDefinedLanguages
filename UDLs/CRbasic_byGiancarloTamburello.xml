@@ -1,0 +1,34 @@
+<NotepadPlus>
+    <UserLang name="crbasic" ext="CR6 CR300">	<!--Other extensions can be added depending on the logger model-->
+        <Settings>
+            <Global caseIgnored="no"/>
+            <TreatAsSymbol comment="no" commentLine="yes"/>
+            <Prefix words1="yes" words2="no" words3="no" words4="no"/>
+        </Settings>
+        <KeywordLists>
+            <Keywords name="Delimiters">'"0'"0</Keywords>
+            <Keywords name="Folder+">{</Keywords>
+            <Keywords name="Folder-">}</Keywords>
+            <Keywords name="Operators">- ! $ % &amp; ( ) * , / : ; ? @ [ \ ] ^ | ~ + &lt; = &gt;</Keywords>
+            <Keywords name="Comment">1 2 0'</Keywords>
+            <Keywords name="Words1">PipelineMode SequentialMode</Keywords>
+            <Keywords name="Words2">Alias ArrayIndex Begin BeginProg Call CallTable Case Case CaseElse CaseIs Const ConstTable ContinueScan Delay Dim Do Do Else Else Else ElseIf ElseIf EndConst EndFunction EndIf EndProg EndSequence EndSub ESSInitialize ESSVariables Exit Exit ExitDo ExitFor ExitFunction ExitScan ExitSub FileManage For Function If If IfDef IfTime IIF Include LoggerType Loop Loop NewFieldNames Next NextScan NextSubScan Optional Public ReadOnly Return Scan Select SemaphoreGet SemaphoreRelease SlowSequence SlowSequence Step Sub SubScan Table Then TriggerSequence TriggerSequence Units Until WaitDigTrig WaitTriggerSequence Wend While</Keywords>
+            <Keywords name="Words3">CDM_ACPower CDM_Battery CDM_BrFull CDM_BrFull6W CDM_BrHalf CDM_BrHalf3W CDM_BrHalf4W CDM_Delay CDM_ExciteI CDM_ExciteV CDM_MuxSelect CDM_PanelTemp CDM_PeriodAvg CDM_PulsePort CDM_Resistance CDM_Resistance3W CDM_SW12 CDM_SW5 CDM_TCComp CDM_TCDiff CDM_TCSE CDM_Therm107 CDM_VoltDiff CDM_VoltSE CDM_VW300Config CDM_VW300Dynamic CDM_VW300RainFlow CDM_VW300Static VWIRE DisplayLine DisplayMenu DisplayValue EndMenu EndSubMenu MenuItem MenuPick MenuRecompile SubMenu Average CardFlush CardOut DataEvent DataInterval DataTime ETsz FieldNames FileMark FillStop GOESField GOESTable Histogram Histogram4D LevelCrossing Maximum Median Minimum MinRun Moment OpenInterval RainFlowSample Sample SampleFieldCal SampleMaxMin StdDev TableFile TableHide Totalize WindVector WorstCase ApplyandRestartSequence ArrayLength CalFile Calibrate CheckPort ClockChange ClockSet ComPortIsActive Data DaylightSaving Debug Encryption Erase EthernetPower FieldCal FieldCalStrain GetRecord GPS IfTime InstructionTimes LineNum LoadFieldCal MonitorComms Move MuxSelect NewFieldCal NewFile PortBridge PortGet PortPairConfig PortsConfig PortSet PreserveVariables PulsePort PWM Read ReadIO RealTime ResetTable Restart Restore SDI12SensorSetup SDI12SensorResponse SecsSince1990 SequentialMode SetSecurity SetStatus ShutDownBegin ShutDownEnd Signature StationName SW12 TimedControl TimeIntoInterval TimeIsBetween Timer WatchDogTimer WriteIO FileClose FileCopy FileEncrypt FileList FileManage FileOpen FileRead FileReadLine FileRename FileSize FileTime FileWrite GetFile Gzip NewFile SendFile TableFile DHCPRenew EmailRecv EmailRelay EmailSend EthernetPower FTPClient HTTPGet HTTPOut HTTPPost HTTPPut IPInfo IPNetPower IPRoute IPTrace NetworkTimeProtocol PingIP PPPClose PPPOpen SMSRecv SMSSend SNMPVariable TCPActiveConnections TCPClose TCPOpen UDPDataGram UDPOpen WebPageBegin WebPageEnd XMLParse ABS ACOS AddPrecise AngleDegrees ASCII ASIN ATN ATN2 AvgRun AvgSpa Ceiling CheckSum COS COSH Covariance CovSpa CType DewPoint EXP FFT FFTSpa FindSpa Floor FRAC Hex HexToDec INT LOG LOG10 Matrix MaxRun MaxSpa MinRun MinSpa MoveBytes MovePrecise PeakValley PRT PRTCalc PWR Quadrature RainFlow Randomize RectPolar RMSSpa RND Round SatVP SGN SIN SINH SolarPosition SortSpa SQR StdDevSpa StrainCalc TAN TANH TotalRun VaporPressure WetDryBulb ACPower AM25T AVW200 Battery BrFull BrFull6W BrHalf BrHalf3W BrHalf4W CS616 CS7500 CSAT3 CSAT3B CSAT3BMonitor CurrentSE CWB100 CWB100Diagnostics CWB100Routes CWB100RSSI EC100 EC100Configure ExciteI ExciteV HydraProbe LI7200 LI7700 PanelTemp PeriodAvg PulseCount PulseCountReset Quadrature Resistance Resistance3W SDI12Recorder TCDiff TCPsyc TCSE TDR100 TDR200 TGA Therm107 Thermistor TimerInput VibratingWire VoltDiff VoltSE AcceptDataRecords Broadcast ClockReport DataGram EncryptExempt GetDataRecord GetFile GetVariables Network PakBusClock Route RoutersNeighbors Routes SendData SendFile SendGetVariables SendTableDef SendVariables StaticRoute TimeUntilTransmit SDMAO4 SDMAO4A SDMBeginPort SDMCan SDMCD16AC SDMCD16Mask SDMCVO4 SDMGeneric SDMINT8 SDMIO16 SDMSIO4 SDMSpeed SDMSW8A SDMTrigger SDMX50 ArgosData ArgosDataRepeat ArgosError ArgosSetup ArgosTransmit ComPortIsActive DialModem DialSequence DialVoice DNP DNPUpdate DNPVariable EndDialSequence EndVoice GOESData GOESField GOESGPS GOESSetup GOESStatus GPS I2COpen I2CRead I2CWrite ModbusMaster ModbusSlave ModemCallBack ModemHangup SPIOpen SPIRead SPIWrite VoiceBeg VoiceHangup VoiceKey VoiceNumber VoicePhrases VoiceSetup VoiceSpeak CheckSum ComPortIsActive MoveBytes SerialBrk SerialClose SerialFlush SerialIn SerialInBlock SerialInChk SerialInRecord SerialOpen SerialOut SerialOutBlock ASCII CHR Concatenation FormatFloat FormatLong FormatLongLong Hex HexToDec InStr Left Len LowerCase LTrim Mid Replace Right RTrim SplitStr Sprintf StrComp Trim TypeOf UpperCase</Keywords>
+        </KeywordLists>
+        <Styles>
+            <WordsStyle name="DEFAULT" styleID="11" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0"/>
+            <WordsStyle name="FOLDEROPEN" styleID="12" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0"/>
+            <WordsStyle name="FOLDERCLOSE" styleID="13" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0"/>
+            <WordsStyle name="KEYWORD1" styleID="5" fgColor="0000FF" bgColor="FFFFFF" fontName="" fontStyle="0"/>
+            <WordsStyle name="KEYWORD2" styleID="6" fgColor="FF0000" bgColor="FFFFFF" fontName="" fontStyle="1"/>
+            <WordsStyle name="KEYWORD3" styleID="7" fgColor="0000FF" bgColor="FFFFFF" fontName="" fontStyle="0"/>
+            <WordsStyle name="COMMENT" styleID="1" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0"/>
+            <WordsStyle name="COMMENT LINE" styleID="2" fgColor="008000" bgColor="C0C0C0" fontName="Comic Sans MS" fontStyle="2" fontSize="8"/>
+            <WordsStyle name="NUMBER" styleID="4" fgColor="808040" bgColor="FFFFFF" fontName="" fontStyle="0"/>
+            <WordsStyle name="OPERATOR" styleID="10" fgColor="008040" bgColor="FFFFFF" fontName="" fontStyle="0"/>
+            <WordsStyle name="DELIMINER1" styleID="14" fgColor="800080" bgColor="FFFFFF" fontName="" fontStyle="0"/>
+            <WordsStyle name="DELIMINER2" styleID="15" fgColor="800080" bgColor="FFFFFF" fontName="" fontStyle="0"/>
+            <WordsStyle name="DELIMINER3" styleID="16" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0"/>
+        </Styles>
+    </UserLang>
+</NotepadPlus>
